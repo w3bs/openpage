@@ -1,0 +1,19 @@
+{
+  "name": "openpage",
+  "version": "1.0.1",
+  "description": "opens a custom page",
+  "main": "openpage.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tobias Gath",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "latest",
+    "chalk": "latest",
+    "inquirer": "latest"
+  },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/w3bs"
+  }
+}
